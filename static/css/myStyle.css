@@ -1,0 +1,389 @@
+#header-section{
+    width: 100%;
+    height: 100%;
+    /* min-height: 100px;
+    max-height: 200px; */
+    
+    background-color: black;
+}
+
+.home-icon{
+    color: #7ddc1f;
+}
+
+.stay-home{
+    margin-left: 0px;
+}
+
+.stay-home1{
+    color: white;
+    font-size: 30px;
+}
+
+.stay-home2{
+    color: white;
+    font-size: 12px;
+}
+
+.live-btm{
+    margin: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.search-form{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.search-btn , .search-btn :hover {
+    color: #7ddc1f;
+    border-style: none;
+}
+
+.souria-band{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.souria1{
+    color: white;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.souria2{
+    color: #7ddc1f !important;
+}
+
+.input-group-text{
+    background-color: black;
+}
+
+.black-navbar{
+    background-color: black;
+}
+
+.navbar-brand :hover{
+    color: #7ddc1f;
+}
+
+
+
+.who-we-are{
+    color: #7ddc1f !important;
+}
+
+.header-nav-item :hover{
+background-color: #444444;
+}
+
+.dropdown-menu{
+    background-color: #444444;
+    padding: 0px;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item :hover{
+    color: white;
+}
+
+.dropdown-menu :hover{
+    background-color: black;
+}
+
+.dropdown-divider {
+    margin: 0px;
+}
+
+#carousel-div {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.set-border {
+    border-style: groove;
+}
+
+.carousel-text {
+    height: 100px;
+    margin-top:50px ;
+    margin-bottom:50px ;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+.angle-icon {
+    color: black !important;
+}
+
+
+.last-news-col1 {
+    margin: auto;
+}
+.last-news-col2 {
+    margin: auto;
+}
+
+.collapse-news{
+    width: 100%;
+}
+
+.slidebar-news{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.slidebar-news :hover{
+    color: rgb(138, 24, 24);
+}
+
+#covid{
+    margin-top: 20px;
+}
+
+#covid a{
+    text-decoration: none;
+}
+
+.covid-span{
+    margin: auto;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+.covid-span2{
+    font-size: 20px !important;
+}
+
+.covid-div{
+    background-image: url("../../images/covid/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.covid-statistics {
+    background-image: url("../../images/covid/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px 50px 20px;
+    
+}
+.recovered-col , .deaths-col , .confirmed-col{
+    margin: 50px;
+}
+
+.confirmed-statue-value {
+    font-size: 40px;
+    color: red;
+    font-weight: bolder;
+}
+
+.deaths-statue-value {
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+}
+
+.recovered-statue-value {
+    font-size: 40px;
+    color: #7ddc1f;
+    font-weight: bolder;
+}
+
+.confirmed-statue-label , .deaths-statue-label , .recovered-statue-label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#news-card{
+    margin-top: 50px;
+}
+
+.single-news-card{
+    margin: auto;
+}
+
+.single-news-card-padding{
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+.single-news-card-img {
+    width: 350px !important;
+    height: 250px !important;
+}
+
+.single-news-card-header-mix{
+    border-bottom-color: #ca57ce !important;
+    border-bottom-width: 5px !important;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+.single-news-card-header-sport{
+    border-bottom-color: #57117a !important;
+    border-bottom-width: 5px !important;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+.single-news-card-header-news{
+    border-bottom-color: #35a831 !important;
+    border-bottom-width: 5px !important;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+.list-group-first-item{
+    font-weight: bold;
+}
+
+.list-group-flush a:hover{
+    color: rgb(138, 24, 24);
+}
+
+.list-group-flush  a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+#souria-play{
+    margin-top: 50px ;
+}
+
+.play-video {
+    top: 0;
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    direction: ltr;
+    white-space: nowrap;
+    text-align: left;
+    display: block;
+    background: rgba(221, 221, 221, 0.7);
+    position: absolute;
+    z-index: 800;
+}
+
+.play-icon .play-video::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 7px 0 7px 12px;
+    border-color: transparent transparent transparent #5e5c5b;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play-icon .play-video{
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 2px;
+    background: rgba(221, 221, 221, 0.7);
+
+}
+
+.play-icon {
+    direction: ltr;
+    white-space: nowrap;
+    text-align: left;
+}
+
+
+.souria-play-card{
+    margin: auto;
+    
+}
+
+.souria-play-card-header{
+    border-bottom-color: #35a591 !important;
+    border-bottom-width: 5px !important;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+.carousel-item-card{
+    width: 300px !important;
+}
+
+.carousel-item-slideshow , .card-body-bg-color{
+    margin: auto;
+    background-color: rgb(30, 35, 39);
+}
+
+.display-card {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.display-card-col {
+    width: auto;
+    height: auto;
+}
+
+#online {
+    margin-top: 20px;
+}
+
+.onlin-div {
+    margin: auto;
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.souria-play-div a{
+    text-decoration: none;
+    color: #767a7e;
+}
+
+#footer-div {
+    background-color: #2e3031;
+}
+
+.footer-div-padding {
+    padding: 100px 0px 100px 0px ;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.footer-links {
+    min-width: 200px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.footer-search :hover{
+    background-color: darkgray;
+}
+
+.language-link {
+    margin: 10px 30px 10px 0px;
+}
+.copy-right-div {
+    font-size: 15px;
+    margin: auto;
+    position: relative;
+}
